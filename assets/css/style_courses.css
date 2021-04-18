@@ -1,0 +1,297 @@
+/******************************************************************
+Project Name: Educafe LMS;
+Designer / Developer Name: Mr. X;
+Clinet Name: Mr.Y;
+Project Start Date: 11-04-2021;
+Project Submission Date: 15-04-21;
+Project Page : 7;
+--------------------------------------------------------------------
+		Home Page
+	-----------------
+	1.TopBar
+	2.Navbar
+	3.Slider
+	4.AboutUS
+	5.Courses
+	6.Facts
+	7.RecentNews
+	8.Testimoinal
+	9.CTA
+	10.Footer
+----------------------------------------------------------------------
+***********************************************************************/
+
+
+/*Google Font CDN Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/***************************************************************************
+			Base CSS Start
+****************************************************************************/
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif !important;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/***************************************************************************
+			Base CSS End
+****************************************************************************/
+/***************************************************************************
+			Common CSS Start
+****************************************************************************/
+.primary-bg{
+	background-color: #56ab2f !important;
+}
+.secondary-bg{
+	background-color: #000022 !important;
+}
+.primary-color{
+	color: #56ab2f !important;
+}
+.secondary-color{
+	color: #000022 !important;
+}
+.primary-btn{
+	background-color: #56ab2f !important;
+	border: 1px solid #56ab2f !important;
+	color: #f1f1f1 !important;
+}
+.primary-btn:hover{
+	background-color: #ff4f81 !important;
+	color: #fff !important;
+	border: 1px solid #ff4f81 !important;
+}
+.secondary-btn{
+	background-color: transparent !important;
+	color: #000022 !important;
+	border: 1px solid #56ab2f !important;
+}
+.secondary-btn:hover{
+	background-color: #ff4f81 !important;
+	color: #fff !important;
+	border: 1px solid #ff4f81 !important;
+}
+.card-hover:hover{
+	border-color:  #56ab2f !important;
+}
+/***************************************************************************
+			Common CSS End
+****************************************************************************/
+
+/***************************************************************************
+			Topbar CSS Start
+****************************************************************************/
+.topbar{
+	height: 49px;
+	line-height: 49px;
+}
+.topbar-left li{
+	font-size: 14px;
+	padding-left: 20px;
+}
+.topbar-left li:first-child{
+	padding: 0;
+}
+.topbar-right li{
+	font-size: 14px;
+}
+.topbar-right li:first-child::after{
+	content: "|";
+	color: #000022;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/***************************************************************************
+			Topbar CSS End
+****************************************************************************/
+/***************************************************************************
+			Navbar CSS Start
+****************************************************************************/
+.margin-left-5{
+	margin-left: -5px;
+	font-size: 10px;
+}
+.nav-link{
+	font-weight: bold;
+	color: #000022 !important;
+}
+.nav-link:focus{
+	color: #56ab2f !important;
+}
+.active .nav-link{
+	color: #56ab2f !important;
+}
+/***************************************************************************
+			Navbar CSS End
+****************************************************************************/
+/***************************************************************************
+			Topbackground CSS start
+****************************************************************************/
+.topbackground{
+	height: 245px !important;
+	background-image: url(../img/about/topsecbackground.png);
+	width: auto !important;
+	display: flex;
+	justify-content: center !important;
+	align-items: center !important;
+}
+.topabout{
+
+}
+/***************************************************************************
+			Topbackground CSS End
+****************************************************************************/
+/***************************************************************************
+			Courses CSS Start
+****************************************************************************/
+.line{
+	width: 120px;
+	border-bottom: 2px solid #cfcfcf;
+	position: relative;
+	left: 33%;
+}
+.category:hover,
+.category:visited{
+	color: red;
+}
+
+
+/***************************************************************************
+			Courses CSS End
+****************************************************************************/
+
+/***************************************************************************
+			Our Teacher CSS start
+****************************************************************************/
+.Ourteacher-icon li{
+    margin-left: 10px;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	background: transparent;
+	border-radius: 50%;
+	border:1px solid black;
+}
+.Ourteacher-icon li a{
+	padding: 5px;
+	color: black;
+}
+.pagination li a{
+	color: green;
+}
+.pagination li a:hover{
+	background-color: green;
+}
+
+/***************************************************************************
+			Our Teacher CSS end
+****************************************************************************/
+
+/***************************************************************************
+			Contact CSS start
+****************************************************************************/
+.contact li{
+	  margin-left: 5px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	background: green;
+	border-radius: 50%;
+	border:1px solid green;
+}
+
+.contact li a{
+	padding: 3px;
+	color: white;
+}
+.contact li a:hover{
+    background: white;
+    color: green;
+    border-radius: 55%;
+    padding: 3px;
+}
+/***************************************************************************
+			Contact CSS end
+****************************************************************************/
+
+
+/***************************************************************************
+			Course Details CSS start
+****************************************************************************/
+.course-feture{
+	padding: 0 auto 0 auto;
+}
+.feture-icon li i{
+	color: green !important;
+	border: 1px solid white;
+}
+.christine li{
+	margin-left: 5px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	background: white;
+	border-radius: 50%;
+	border:1px solid green;
+}
+.christine li a{
+	color: green !important;
+}
+/***************************************************************************
+			Course Details CSS end
+****************************************************************************/
+
+::placeholder{
+color: #f1f1f1;
+}
+.cta-email{
+	height: 40px;
+    width: 30%;
+    border: 1px solid #f1f1f1;
+    background: transparent;
+    outline: none;
+    padding-left: 10px;
+}
+
+.cta-btn{
+	outline: 2px solid rgba(255,255,255,.5);
+}
+
+.footer{
+	background: #1e1d1d;
+}
+.line-height-30 li{
+	line-height: 35px;
+}
+.footer-bottom{
+	border-top: 2px solid  #56ab2f !important;
+}
+.footer-icon li{
+	margin-left: 10px;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	background: transparent;
+	border-radius: 50%;
+	border:1px solid #f1f1f1;
+}
+.footer-icon li a{
+	padding: 5px;
+	color: #f1f1f1;
+}
+.footer-icon li:hover a{
+	color:#56ab2f;
+}

@@ -1,0 +1,70 @@
+@media screen and (max-width: 991px) {
+	.topbar-left li a span{
+		display: none;
+	}
+	.margin-md-5{
+		margin-top: 3rem;
+	}
+}
+@media screen and (max-width: 767px) {
+	.pr-sm-15{
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.background-academy{
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.principle{
+		margin-left: 26%;
+    margin-top: 13%;
+    margin-bottom: -10%;
+	}
+
+	.cta-email{
+		width: 70% !important;
+	}
+
+	.footer-icon{
+		justify-content: center !important;
+	}
+}
+
+
+
+
+@media screen and (max-width: 575px) {
+
+	.owl-carousel .owl-nav button.owl-next,
+	 .owl-carousel .owl-nav button.owl-prev{
+	    
+	    font-size: 30px;
+	    color: #f1f1f1;
+	    border:2px solid #f1f1f1 !important;
+	    border-radius: 5%;
+	    /*height: 40px;*/
+	    width: 40px;
+	}
+
+	.owl-carousel .owl-nav button.owl-next{
+		right: 5%;
+	}
+
+	 .owl-carousel .owl-nav button.owl-prev{
+	    left: 5%;
+	}
+	.m-xs-5{
+		margin-top: 5rem !important;
+	}
+	.text-xs-center{
+		text-align: center !important;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.principle{
+	margin-left: 10% !important;
+    margin-top: 13%;
+    margin-bottom: -10%;
+	}
+}
