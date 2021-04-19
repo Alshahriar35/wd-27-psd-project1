@@ -68,3 +68,20 @@
     margin-bottom: -10%;
 	}
 }
+@media screen and (max-width: 767px) {
+	.tab-footer{
+		display: none;
+	}
+	.tab-card{
+        width: 100px !important;
+        height: 110px !important;
+	}
+}
+@media screen and (min-width: 768px) {
+	.phone-footer{
+		display: none;
+	}
+	.phone-card{
+		display: none;
+	}
+}
